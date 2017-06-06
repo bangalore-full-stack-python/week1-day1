@@ -5,9 +5,9 @@ data.sort()
 def calculate(data):
     # Median
     if (len(data)%2 > 0):
-        print (int(data[int(len(data)/2)]))
+        print (int(int(data[int(len(data)/2)])))
     elif (len(data)%2 == 0):
-        print (int(data[int(len(data)/2)] + data[int(len(data)/2)-1]) /2)
+        print (int(int(data[int(len(data)/2)] + data[int(len(data)/2)-1]) /2))
     
     # Average
     print (int(sum(data)/len(data)))
